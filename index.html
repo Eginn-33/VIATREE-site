@@ -1,34 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VIATREE Software Studio | AI & Systems Design</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIATREE Software Studio | Advanced AI Agent & Systems Design</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { background-color: #050505; color: #f9fafb; font-family: 'Inter', system-ui, sans-serif; }
+        .gradient-text { background: linear-gradient(135deg, #60a5fa, #2dd4bf); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+    </style>
 </head>
-<body class="bg-black text-white font-sans antialiased">
-    <nav class="p-6 border-b border-gray-800 flex justify-between items-center">
-        <div class="text-2xl font-black tracking-tighter text-blue-500">VIATREE</div>
-        <div class="text-xs uppercase tracking-widest text-gray-500">New York · New Jersey</div>
-    </nav>
-    <header class="py-24 px-6 max-w-4xl mx-auto text-center">
-        <h1 class="text-5xl md:text-6xl font-extrabold mb-6">Building <span class="text-blue-500">Autonomous</span> Intelligence</h1>
-        <p class="text-gray-400 text-lg mb-8">Specializing in AI agent architecture, secure payment systems, and software engineering for the modern web.</p>
-        <a href="mailto:admin@viatree.io" class="inline-block bg-white text-black px-8 py-3 rounded-full font-bold hover:bg-blue-500 hover:text-white transition">Contact Studio</a>
-    </header>
-    <section class="py-20 bg-zinc-900 px-6">
-        <div class="max-w-4xl mx-auto grid md:grid-cols-2 gap-8 text-left">
-            <div class="p-6 border border-gray-800 rounded-xl">
-                <h3 class="text-xl font-bold mb-2">AI Agent Integration</h3>
-                <p class="text-gray-400">Automated workflows and intelligent system auditing.</p>
+<body class="antialiased">
+    <nav class="p-6 border-b border-gray-900 bg-black/50 backdrop-blur-sm fixed w-full top-0 z-50">
+        <div class="max-w-7xl mx-auto flex items-center justify-between">
+            <div class="text-3xl font-black tracking-tighter gradient-text">VIATREE</div>
+            <div class="hidden md:flex space-x-6 text-sm uppercase tracking-widest text-gray-400">
+                <a href="#services" class="hover:text-white transition">Services</a>
+                <a href="#about" class="hover:text-white transition">About</a>
+                <a href="#contact" class="hover:text-white transition">Contact</a>
             </div>
-            <div class="p-6 border border-gray-800 rounded-xl">
-                <h3 class="text-xl font-bold mb-2">Full-Stack Development</h3>
-                <p class="text-gray-400">Scalable cloud-native applications and API design.</p>
+        </div>
+    </nav>
+
+    <header class="pt-48 pb-32 px-6 max-w-7xl mx-auto text-center border-b border-gray-900">
+        <h1 class="text-6xl md:text-8xl font-black mb-8 leading-tight tracking-tighter">
+            Architecting <br><span class="gradient-text">Autonomous Intelligence</span>
+        </h1>
+        <p class="text-gray-400 text-xl max-w-3xl mx-auto mb-12">
+            Specializing in AI agent systems, secure financial auditing, and advanced full-stack engineering. We build the intelligent infrastructure that drives the modern decentralized web.
+        </p>
+        <a href="mailto:admin@viatree.io" class="inline-block bg-white text-black px-12 py-4 rounded-full font-bold text-lg hover:bg-blue-500 hover:text-white transition shadow-lg shadow-white/10">Start a Project</a>
+    </header>
+
+    <section id="services" class="py-28 bg-zinc-900/50 px-6">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid md:grid-cols-3 gap-10">
+                <div class="p-8 border border-gray-800 rounded-3xl bg-black hover:border-blue-900 transition-all duration-300 shadow-2xl">
+                    <div class="text-4xl mb-5">🤖</div>
+                    <h3 class="text-2xl font-bold mb-4">AI Agent Architecture</h3>
+                    <p class="text-gray-400 leading-relaxed">Developing autonomous AI agents for complex platform integration, automated workflows, and intelligent decision-making systems.</p>
+                </div>
+                <div class="p-8 border border-gray-800 rounded-3xl bg-black hover:border-teal-900 transition-all duration-300 shadow-2xl">
+                    <div class="text-4xl mb-5">💳</div>
+                    <h3 class="text-2xl font-bold mb-4">Systems Auditing</h3>
+                    <p class="text-gray-400 leading-relaxed">Comprehensive security and performance auditing for payment gateways, fintech APIs, and decentralized networks.</p>
+                </div>
+                <div class="p-8 border border-gray-800 rounded-3xl bg-black hover:border-purple-900 transition-all duration-300 shadow-2xl">
+                    <div class="text-4xl mb-5">💻</div>
+                    <h3 class="text-2xl font-bold mb-4">Full-Stack Design</h3>
+                    <p class="text-gray-400 leading-relaxed">High-performance, scalable cloud-native applications and bespoke software solutions built with cutting-edge tech stacks.</p>
+                </div>
             </div>
         </div>
     </section>
-    <footer class="py-12 text-center text-gray-600 text-xs uppercase tracking-widest">
-        &copy; 2026 VIATREE Software Studio. NYC Area.
+
+    <footer id="contact" class="py-20 border-t border-gray-900 px-6 text-center bg-black">
+        <div class="max-w-7xl mx-auto flex flex-col items-center">
+            <h2 class="text-4xl font-extrabold mb-8 gradient-text">Let's build together.</h2>
+            <a href="mailto:admin@viatree.io" class="text-3xl font-medium border-b-4 border-blue-600 pb-2 hover:border-teal-500 transition">admin@viatree.io</a>
+            <p class="text-sm text-gray-600 uppercase tracking-widest mt-16">&copy; 2026 VIATREE Software Studio. NYC Area.</p>
+        </div>
     </footer>
 </body>
 </html>
