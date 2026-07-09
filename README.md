@@ -4,6 +4,7 @@
 
 ## 🛒 Live tools
 
+- **PipelineCoach** — https://viatreebot.com/p/pipelinecoach-tyybtd
 - **MetricsLite** — https://viatreebot.com/p/metricslite-kcnzb1
 - **ListingForge AI** — https://viatreebot.com/p/listingforge-ai-w730fx
 - **MeetSync AI** — https://viatreebot.com/p/meetsync-ai-x0oq3p
