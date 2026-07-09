@@ -11,6 +11,6 @@
 - **TermsMarkup — Payment-Terms Pricing Surcharge Calculator** — https://viatreebot.com/p/termsmarkup-payment-terms-pricing-surcha-vwfhxr
 - **FundPack - 应收账款融资申报助手** — https://viatreebot.com/p/fundpack-1xhixo
 
-📚 7 published article(s) · https://viatreebot.com/blog
+📚 8 published article(s) · https://viatreebot.com/blog
 
 <!-- VIATREE:STORE:END -->
