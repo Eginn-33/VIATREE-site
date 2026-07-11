@@ -13,6 +13,6 @@
 - **ListingForge AI** — https://viatreebot.com/p/listingforge-ai-w730fx
 - **MeetSync AI** — https://viatreebot.com/p/meetsync-ai-x0oq3p
 
-📚 13 published article(s) · https://viatreebot.com/blog
+📚 14 published article(s) · https://viatreebot.com/blog
 
 <!-- VIATREE:STORE:END -->
