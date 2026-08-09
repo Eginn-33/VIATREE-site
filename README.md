@@ -11,7 +11,6 @@
 - **ClipForge AI** — https://viatreebot.com/p/clipforge-ai-06oaxu
 - **ViralForge** — https://viatreebot.com/p/viralforge-zwerre
 - **PipelineCoach** — https://viatreebot.com/p/pipelinecoach-tyybtd
-- **MetricsLite** — https://viatreebot.com/p/metricslite-kcnzb1
 
 📚 15 published article(s) · https://viatreebot.com/blog
 
